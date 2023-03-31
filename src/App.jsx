@@ -17,84 +17,84 @@ function App() {
   const [selectedTeam,setTeam]=useState( JSON.parse(localStorage.getItem('selectedItem'))||"Team B");
   const [employees,setEmployees] =useState(JSON.parse(localStorage.getItem("employeeList")) || [{
     id:1,
-    fullName:"Johny01",
+    fullName:"Dev David",
     designation:"Js Developer",
     gender:"male",
     teamName:"TeamA"
   },
   {
     id:2,
-    fullName:"Johny02",
-    designation:"Js Developer",
+    fullName:"Johny Carlos",
+    designation:"React Developer",
     gender:"female",
     teamName:"TeamA"
   },
   {
     id:3,
-    fullName:"Johny03",
+    fullName:"Mount Cruiz",
     designation:"Js Developer",
     gender:"male",
     teamName:"TeamA"
   },
   {
     id:4,
-    fullName:"Johny04",
-    designation:"Js Developer",
+    fullName:"Masda Miata",
+    designation:"Python Developer",
     gender:"female",
     teamName:"TeamB"
   },
   {                                  
     id:5,
-    fullName:"Johny05",
-    designation:"Js Developer",
+    fullName:"L urrus",
+    designation:"C Developer",
     gender:"female",
     teamName:"TeamB"
   },  
   {
     id:6,
-    fullName:"Johny06",
-    designation:"Js Developer",
+    fullName:"John David",
+    designation:"C++ Developer",
     gender:"male",
     teamName:"TeamB"
   },  
   {
     id:7,
-    fullName:"Johny07",
+    fullName:"Arakal Madev",
     designation:"Js Developer",
     gender:"male",
     teamName:"TeamC"
   },  
   {
     id:8,
-    fullName:"Johny08",
-    designation:"Js Developer",
+    fullName:"J Morlog",
+    designation:"Flutter Developer",
     gender:"female",
     teamName:"TeamC"
   },  
   {
     id:9,
-    fullName:"Johny09",
-    designation:"Js Developer",
+    fullName:"",
+    designation:"Android Developer",
     gender:"female",
     teamName:"TeamC"
   },                                   
   {
     id:10,
-    fullName:"Johny10",
-    designation:"Js Developer",
+    fullName:"Aston Martin",
+    designation:"UI Developer",
     gender:"female",
     teamName:"TeamD"
   },
   {
     id:11,
-    fullName:"Johny11",
-    designation:"Js Developer",
+    fullName:"M Masseratti",
+    designation:"Web Developer",
     gender:"male",
     teamName:"TeamD"
   },  
   {
     id:12,
-    fullName:"Johny12",
+    fullName:"Hail Thomas",
     designation:"Js Developer",
     gender:"male",
     teamName:"TeamD"
