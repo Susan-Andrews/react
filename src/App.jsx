@@ -107,23 +107,12 @@ function App() {
     localStorage.setItem('selectedTeam',JSON.stringify(selectedTeam))
   },[selectedTeam]);
 
-
-
-
-  
-  
-  
-  
-  
   function handleEmployeeCardClick(event){
     const transformedEmployees= employees.map((employee) => employee.id === parseInt(event.currentTarget.id)
  ?(employee.TeamName === selectedTeam)?{...employee,teamName:''}:{...employee,teamName:selectedTeam}
       :employee);
         setEmployees(transformedEmployees);                                    
   }
-    
-  
-  
   
   function handleTeamSelectionChange(event) {
     setTeam(event.target.value);
@@ -153,3 +142,7 @@ function App() {
   );
 }
 export default App;
+
+
+
+// REPLACE THE DETAILS OF EMPLOYEES ACCORDINGLY
