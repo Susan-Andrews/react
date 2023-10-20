@@ -18,4 +18,6 @@ By default, Replit runs the `dev` script, but you can configure it by changing t
 Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)  
   
 View the project here : https://teamtracking.susanandrews123.repl.co/  
-Modify Names Accordingly  
+Modify Names Accordingly 
+# summary
+Combine React with Vite for efficient web app development on Repl.it. Deploy your optimized app using platforms like Netlify or Vercel, ensuring continuous monitoring and updates for an enhanced user experience.
